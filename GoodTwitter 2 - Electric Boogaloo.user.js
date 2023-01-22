@@ -2258,6 +2258,22 @@
           .gt2-account-switcher-toggle > svg:nth-child(1){
           cursor: pointer;
           }
+
+          .r-1ljd8xs > div:nth-child(1){
+          border: 4.5px solid var(--color-backdrop) !important;
+	      border-radius: 5px;
+          }
+
+          .r-13l2t4g {
+	border-right-width: 0px !important;
+}
+.r-1ljd8xs {
+	border-left-width: 0px !important;
+}
+
+main > div > div > div div[data-testid="primaryColumn"] {
+	border-bottom: 0px solid var(--color-gray-dark) !important;
+}
         </style>
         <style class="gt2-style-pickr">${GM_getResourceText("pickrCss")}</style>`
       )
